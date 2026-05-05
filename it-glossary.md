@@ -26,6 +26,23 @@
 | NIC (Network Interface Card) | ニック | ネットワーク接続用のハードウェア |
 | PoE (Power over Ethernet) | ピーオーイー | LANケーブルで電源も供給する技術 |
 
+### ネットワークの種類（規模別）
+
+| 英語 | 読み方 | 範囲 | 例 |
+|------|--------|------|-----|
+| PAN (Personal Area Network) | パン | 数メートル（身の回り） | Bluetoothイヤホン、スマートウォッチ |
+| LAN (Local Area Network) | ラン | 1つの建物内 | オフィス内のPC、プリンター接続 |
+| WLAN (Wireless LAN) | ダブルラン | 1つの建物内（無線） | Wi-Fiネットワーク |
+| MAN (Metropolitan Area Network) | マン | 1つの都市内 | 市内の複数オフィスを接続 |
+| WAN (Wide Area Network) | ワン | 都市間・国をまたぐ | 本社↔海外支社、インターネット |
+| SAN (Storage Area Network) | サン | データセンター内 | サーバー↔ストレージ専用の高速接続 |
+
+```
+小 ←─────────────────────────→ 大
+PAN → LAN → WLAN → MAN → WAN
+身の回り  建物内   無線    都市内   都市間
+```
+
 ---
 
 ## ネットワークデバイス
